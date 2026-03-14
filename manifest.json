@@ -1,13 +1,16 @@
 {
   "manifest_version": 2,
-  "name": "URLs List",
-  "version": "0.6.0",
+  "name": "Better URLs List",
+  "version": "0.7.0",
   "description": "List the URLs of all tabs from the current window as copyable plaintext.",
-  "homepage_url": "https://github.com/moritz-h/urls-list",
+  "homepage_url": "https://github.com/deadmeu/urls-list",
   "browser_specific_settings": {
     "gecko": {
-      "id": "{88664789-f91e-40e1-adb9-e4e9a8c48867}",
-      "strict_min_version": "115.0"
+      "id": "{772b01a8-893d-44d5-92aa-a1fd5e318171}",
+      "strict_min_version": "115.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
     }
   },
   "permissions": [
